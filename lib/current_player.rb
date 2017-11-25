@@ -1,6 +1,6 @@
 def turn_count(board)
   counter = 0
-  board.each do |turn|
+  board.each do |turn = "X" || "O"|
     puts "#{turn}"
     counter += 1
   end
